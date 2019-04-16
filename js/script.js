@@ -1,6 +1,6 @@
-setTimeout(function(){
+/*setTimeout(function(){
 	location.href = 'rocket.html';
-}, 1000);
+}, 100000000); */
 
 // this function does this.
 var doCoolStuff = function() {
