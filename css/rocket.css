@@ -29,10 +29,31 @@
 	position: absolute;
 	left: 50%;
 	bottom: 20px;
-	width: 20px;
-	height: 100px;
-	background-color: blue;
+	width: 156px;
+	height: 258px;
+	margin-left: -78px;
+	background: url('../img/state1.png') no-repeat 0 0;
 	transition: bottom 10000ms;
+}
+/* Rocket BG image */
+body.body-state2 .rocket{
+	background-image: url('../img/state1.png');
+	
+}
+body.body-state3 .rocket,
+body.body-state4 .rocket{
+	background-image: url('../img/state2.png');
+	
+
+}
+body.body-state5 .rocket{
+	background-image: url('../img/state5.png');
+	bottom: 0px;
+	width: 273px;
+	height: 215px;
+	margin-left: -136.5px
+
+
 }
 
 body.body-state1 .rocket{
