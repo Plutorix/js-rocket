@@ -15,6 +15,12 @@ a.button{
 	text-transform: uppercase;
 	transition: color 300ms;
 }
+.divider{
+	width: auto;
+	height: -45px;
+	margin-top: 10px; 
+	display: underline-block;
+}
 
 a:hover{
 	color: black;
